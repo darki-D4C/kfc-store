@@ -1,0 +1,210 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  margin-right: 5em;
+  margin-left: 5em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-bottom: 2em;
+}
+
+.amount-button-zero{
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.amount-button-positive{
+  color: white;
+  background-color: black;
+  border-radius: 0.75em;
+  padding: 0.5em;
+}
+
+.Menu-icon {
+  color: black;
+}
+
+.delivery-header {
+  display: flex;
+}
+
+.anchor-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  position: sticky;
+  overflow: auto;
+  top: 0;
+  background-color: whitesmoke;
+  top: 0;
+  z-index: 100;
+  padding-top: 1em;
+  width:100%;
+  padding-bottom: 1em;
+}
+.image{
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.category-anchor {
+  text-decoration: none;
+}
+
+.category-anchor:link {
+  color: red;
+}
+.category-anchor:visited {
+  color: grey;
+}
+
+.category-anchor:hover {
+  color: red;
+}
+
+main{
+  margin-bottom: 5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-group{
+  font-size: 10em;
+}
+
+.footer-grid{
+  display: flex;
+  flex-direction: column;
+}
+
+.section-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.delivery-box {
+  display: flex;
+  justify-content: space-between;
+}
+.category{ 
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.cost-box {
+  color: red
+}
+.items-menu {
+  color: grey;
+  padding-top: 1em;
+  margin-left: 1em;
+  gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+footer {
+  width: 100%;
+}
+
+.delivery-header {
+
+  color: black
+}
+
+.delivery-buttons {
+  width: fit-content;
+}
+
+header {
+  flex-direction: column;
+  flex-basis: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.top-bar {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+}
+
+.basket {
+  float: right;
+  color: white;
+  padding: 0.3em 0.3em;
+  background-color: red;
+  border-radius: 0.75em;
+  width: fit-content;
+  height: fit-content;
+}
+
+.amount-button {
+  bottom: 0;
+  right: 0;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.delivery-header{
+  font-size: 3em;
+}

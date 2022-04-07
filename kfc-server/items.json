@@ -1,0 +1,94 @@
+{
+    "categories": [{
+            "name": "Бургеры",
+            "items": [{
+                    "name": "Чизбургер",
+                    "cost": 70,
+                    "tag": "Новинка",
+                    "image": "http://localhost:8080/burger.jpg"
+                },
+                {
+                    "name": "Двойной чизбургер",
+                    "cost": 120,
+                    "tag": "",
+                    "image": "http://localhost:8080/burger.jpg"
+                },
+                {
+                    "name": "Бургер",
+                    "cost": 100,
+                    "tag": "Хит",
+                    "image": "http://localhost:8080/burger.jpg"
+                },
+                {
+                    "name": "Пестобургер",
+                    "cost": 160,
+                    "tag": "Новинка",
+                    "image": "http://localhost:8080/burger.jpg"
+                },
+                {
+                    "name": "Роялбургер",
+                    "cost": 160,
+                    "tag": "",
+                    "image": "http://localhost:8080/burger.jpg"
+                },
+                {
+                    "name": "Фишбургер",
+                    "cost": 90,
+                    "tag": "",
+                    "image": "http://localhost:8080/burger.jpg"
+                }
+            ]
+        },
+        {
+
+            "name": "Твистеры",
+            "items": [{
+                "name": "Твистер Джуниор",
+                "cost": 70,
+                "tag": "",
+                "image": "http://localhost:8080/twister.jpg"
+            }, {
+                "name": "Твистер Острый",
+                "cost": 72,
+                "tag": "",
+                "image": "http://localhost:8080/twister.jpg"
+            }, {
+                "name": "Твистер Мидл",
+                "cost": 120,
+                "tag": "",
+                "image": "http://localhost:8080/twister.jpg"
+            }, {
+                "name": "Твистер Сениор",
+                "cost": 160,
+                "tag": "",
+                "image": "http://localhost:8080/twister.jpg"
+            }]
+        },
+        {
+
+            "name": "Стрипсы",
+            "items": [{
+                "name": "3 Стрипсы",
+                "cost": 60,
+                "tag": "",
+                "image": "http://localhost:8080/strips.jpg"
+            }, {
+                "name": "6 Стрипс",
+                "cost": 120,
+                "tag": "",
+                "image": "http://localhost:8080/strips.jpg"
+            }, {
+                "name": "12 Стрипс",
+                "cost": 160,
+                "tag": "",
+                "image": "http://localhost:8080/strips.jpg"
+            }, {
+                "name": "15 Стрипс",
+                "cost": 250,
+                "tag": "",
+                "image": "http://localhost:8080/strips.jpg"
+            }]
+
+        }
+    ]
+}
